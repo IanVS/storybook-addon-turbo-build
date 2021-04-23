@@ -41,7 +41,7 @@ export function replaceBabelLoader(
       loader: "esbuild-loader",
       options: {
         target: "es2015",
-        loader: "jsx",
+        loader: "tsx",
       },
     })
   );
