@@ -44,6 +44,7 @@
     "clean": "rm -rf cjs",
     "test": "jest",
     "lint": "prettier --check src",
-    "prepack": "yarn clean && yarn build"
+    "prepack": "yarn clean && yarn build",
+    "prepare": "npm run build"
   }
 }
